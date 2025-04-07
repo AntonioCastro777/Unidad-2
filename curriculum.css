@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.sidebar {
+    background-color: #B98E3E;
+    width: 30%;
+    padding: 20px;
+    color: white;
+}
+.sidebar img {
+    width: 100%;
+    height: 150px;
+    background-color: lightgray;
+    display: block;
+}
+.content {
+    width: 70%;
+    padding: 40px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.section {
+    margin-top: 20px;
+}
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.skill-box {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 10px;
+}
+.button {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.contact-info {
+    margin-top: 15px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.contact-item div {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 10px;
+}
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.contact-item a:hover {
+    color: blue;
+}
+
+.contact-title {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+/*DOCUMENTO CSS*/
+* { margin: 0px;
+    padding: 0px;}
+
+    h3 {font-size: 2.6em;
+        color: azure;
+        text-shadow: 2px 2px 2px black;
+        padding-top: 190px; }
+        
+ .container {width: 100%;
+                min-height: 1px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;}
+
+.items { 
+        width: 100%;
+        height: 320px;
+        text-align: center;
+        background-image: url(https://picsum.photos/id/237/200/300);
+        background-size: 100% 100%; }
+
+    .items:hover{filter: grayscale(100%);}    
+
+        /*
+        .tres { aling-self: flex-end;}
+        */
+        
+        /*MEDIA QUIERES BRAKPONT*/
+        
+    @media only screen and (min-width:992px) {
+.container {width: 1100px;
+            margin: 32px auto;
+            flex-wrap: nowrap;}
+            
+
+
+
+
+.items {width: 25%;
+        margin-left: 16px;
+        height: 140px;}        
+
+  
+
+    }
